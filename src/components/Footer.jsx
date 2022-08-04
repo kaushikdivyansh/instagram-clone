@@ -34,15 +34,23 @@ export default function Footer() {
 		<footer className="flex-shrink-0 mx-5 mb-[52px]">
 			<div>
 				<div className="mt-6 flex flex-wrap justify-center">
-					{footerLinks.map(({ link, innerText }) => (
-						<a className="text-xs text-gray-400 mx-2 mb-3" href={link}>
+					{footerLinks.map(({ link, innerText }, index) => (
+						<a
+							key={innerText + index}
+							className="text-xs text-gray-400 mx-2 mb-3"
+							href={link}
+						>
 							{innerText}
 						</a>
 					))}
 				</div>
 				<div className="flex flex-wrap justify-center">
-					{topicLinks.map(({ link, innerText }) => (
-						<a className="text-xs text-gray-400 mx-2 mb-3" href={link}>
+					{topicLinks.map(({ link, innerText }, index) => (
+						<a
+							key={innerText + index}
+							className="text-xs text-gray-400 mx-2 mb-3"
+							href={link}
+						>
 							{innerText}
 						</a>
 					))}
