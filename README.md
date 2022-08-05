@@ -1,5 +1,6 @@
 # Instagram-Clone
 
+![demo](https://raw.githubusercontent.com/kaushikdivyansh/instagram-clone/main/public/demo.png?token=GHSAT0AAAAAABWWPEFQNBJL7AIMM72MI7PKYXMW4JA)
 ## 🛠 Installation & Set Up
 
 1. Install dependencies
