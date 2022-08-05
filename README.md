@@ -20,6 +20,7 @@
    ```
 
 ## 🛠 Frameworks & Libraries used
-   ```sh
-   React | Express | Tailwind
-   ```
+
+```sh
+React | Express | Tailwind
+```
