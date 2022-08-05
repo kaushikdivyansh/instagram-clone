@@ -32,10 +32,9 @@ export default function Form() {
 		setFormInput({ ...formInput, [e.target.name]: e.target.value })
 	}
 
-	console.log(formInput)
 
 	return (
-		<form action="" className="flex flex-col flex-wrap items-center">
+		<form action="/login" method="POST" className="flex flex-col flex-wrap items-center">
 			<div className="space-y-2">
 				{inputs.map((input, index) => (
 					<FormInput
