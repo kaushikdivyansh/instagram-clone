@@ -1,3 +1,4 @@
+export { default as AppStoreLogo } from "./AppStoreLogo"
 export { default as Footer } from "./Footer"
 export { default as Form } from "./Form"
 export { default as FormInput } from "./FormInput"

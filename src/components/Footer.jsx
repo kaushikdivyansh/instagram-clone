@@ -1,34 +1,8 @@
 import { useState } from "react"
 
-export default function Footer() {
+export default function Footer({ footerLinks, topicLinks }) {
+	
 	const [language, setLanguage] = useState("English")
-
-	const footerLinks = [
-		{ link: "https://about.facebook.com/", innerText: "Meta" },
-		{ link: "https://about.facebook.com/", innerText: "About" },
-		{ link: "https://about.facebook.com/", innerText: "Blog" },
-		{ link: "https://about.facebook.com/", innerText: "Jobs" },
-		{ link: "https://about.facebook.com/", innerText: "Help" },
-		{ link: "https://about.facebook.com/", innerText: "API" },
-		{ link: "https://about.facebook.com/", innerText: "Privacy" },
-		{ link: "https://about.facebook.com/", innerText: "Terms" },
-		{ link: "https://about.facebook.com/", innerText: "Top Accounts" },
-		{ link: "https://about.facebook.com/", innerText: "Hashtags" },
-		{ link: "https://about.facebook.com/", innerText: "Locations" },
-		{ link: "https://about.facebook.com/", innerText: "Instagram Lite" },
-		{
-			link: "https://about.facebook.com/",
-			innerText: "Contact Uploading & Non-Users",
-		},
-	]
-
-	const topicLinks = [
-		{ link: "https://about.facebook.com/", innerText: "Dance" },
-		{ link: "https://about.facebook.com/", innerText: "Food & Drink" },
-		{ link: "https://about.facebook.com/", innerText: "Home & Garden" },
-		{ link: "https://about.facebook.com/", innerText: "Music" },
-		{ link: "https://about.facebook.com/", innerText: "Visual Arts" },
-	]
 
 	return (
 		<footer className="flex-shrink-0 mx-5 mb-[52px]">

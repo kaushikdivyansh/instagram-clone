@@ -2,6 +2,7 @@ import { useState } from "react"
 import FormInput from "./FormInput"
 
 export default function Form() {
+	// MARK: Saving User Input in State
 	const [formInput, setFormInput] = useState({
 		username: "",
 		password: "",

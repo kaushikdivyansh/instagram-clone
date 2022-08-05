@@ -37,7 +37,7 @@ module.exports = {
 			},
 		},
 		animation: {
-			flipThrough: "flip 8s ease-out infinite",
+			flipThrough: "flip 10s ease-out infinite",
 		},
 	},
 	plugins: [require("@tailwindcss/forms")],

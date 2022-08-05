@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 
 app.post("/login", function (req, res) {
 	console.log(req.body)
-	res.redirect("https://www.ruggable.com")
+	res.send("Successful Login!!")
 })
 
 app.listen(process.env.PORT || 8080)
